@@ -50,7 +50,7 @@ require (
 )
 
 replace (
-	github.com/cosmos/cosmos-sdk => github.com/omexapp/cosmos-sdk 49de8c8
-	github.com/tendermint/iavl => github.com/omexapp/iavl v0.14.1-omexchain1
-	github.com/tendermint/tendermint => github.com/omexapp/tendermint v0.33.9-omexchain1
+	github.com/cosmos/cosmos-sdk => github.com/omexapp/cosmos-sdk v0.39.2-omex
+	github.com/tendermint/iavl => github.com/omexapp/iavl v0.14.1-omex
+	github.com/tendermint/tendermint => github.com/omexapp/tendermint v0.33.9-omex
 )
