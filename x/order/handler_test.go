@@ -929,7 +929,7 @@ func TestFeesTable(t *testing.T) {
 }
 
 func handleOrders(t *testing.T, baseasset string, quoteasset string, orders []*types.Order, blockheight int64) sdk.SysCoins {
-	TestTokenPairOwner := "omexchain1xk4ap3nmphzx6lnf5l3hnmwhn0n7wsxy5t5ha6"
+	TestTokenPairOwner := "omexchain1u2m27w3d7fmz8lyugx5n3np38np5yjfz4pgzwc"
 	addr, err := sdk.AccAddressFromBech32(TestTokenPairOwner)
 	require.Nil(t, err)
 	mapp, addrKeysSlice := getMockApp(t, len(orders))
