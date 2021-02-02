@@ -10,7 +10,7 @@ import (
 )
 
 // default owner of omt
-const DefaultTokenOwner = "omexchain1xk4ap3nmphzx6lnf5l3hnmwhn0n7wsxy5t5ha6"
+const DefaultTokenOwner = "omexchain1u2m27w3d7fmz8lyugx5n3np38np5yjfz4pgzwc"
 
 // all state that must be provided in genesis file
 type GenesisState struct {
